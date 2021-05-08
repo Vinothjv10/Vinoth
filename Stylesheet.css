@@ -1,265 +1,80 @@
-.error{
-    height: 10px;
-    width: 100% ;
-    background-color: black;
+.su a img{
+height: 10%;
+width: 5%;
+padding-left: 2%;
+margin-top: 1%;
+
 }
-body{
-    background-color: white;
-}
-.body{
-     
-    width: 70%;
-    margin: 0px auto;
-}
-.topbar{
+.div {
+    
     color: green;
+    background-color: rgb(117, 209, 121);
+    height: 10%;
+    width: 20%;
+     border: 10px solid rgb(151, 245, 159);
+    cursor: pointer;
+    border-radius: 15px;   
+} 
+.bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 10%;
+}
+.bullets li img{
+    height: 50%;
+    width: 65%;
+    padding-left: 5%;
+}
+.button {
+   border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;  
+    transition: 0.2s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover {
+    padding-right: 25px;
     background-color: white;
-    height: 80px;
-    width: 100%;
-}
-.topbar img{
-    height: 80px;
-    width: 25%;
-}
-.topbar ul{
-    float: right;
-    margin-top: 30px;
-}
-.topbar ul li{
-    display: inline;
-    margin-right: 40px;
-   
-}
-.topbar ul li a{
-    width: 20px;
-    color: black;
-    text-decoration: none;
-    background-color:rgb(151, 245, 159);
-    border: 10px solid rgb(151, 245, 159);
-    cursor: pointer;
-    border-radius: 15px;
-}
-.pic{
-    background-color: #ebfaf3;
-    cursor: pointer;
-    border-radius: 25px;
-}
-.id{
-  height: 50px;
-  width: 35%;
-  color: black;
-  float: right;
-}
- 
-.container1{
-    padding-bottom: 20px;
-    height: 350px;
-    width: 32%;
-    background-color: rgb(248, 248, 74);
-    border: 1px solid rgb(248, 248, 74);
-    cursor: pointer;
-    border-radius: 25px;
-    float:  left;
-   }
-.container1 img{
-    margin-left: 20px;
-    padding-top: 20px;
-} 
-.con1{
-    margin-left: 20px;
-}
-.con1 a{
-    text-decoration: none;
-    color: white;
-    background-color: #cc0000;
-    border: 5px solid #cc0000;
-    outline: none;
-    cursor: pointer;
-    border-radius: 25px;
-}
-.container2{
-    padding-bottom: 20px;
-    height: 350px;
-    width: 32%;
-    background-color:blanchedalmond;
-    border: 1px solid blanchedalmond;
-    cursor: pointer;
-    border-radius: 25px;
-    float:  left;
-    margin-left: 20px;
-}
-.container2 img{
-    margin-left: 20px;
-    padding-top: 20px;
-} 
-.con2{
-    margin-left: 20px;
-}
-.con2 a{
-    text-decoration: none;
-    color: white;
-    background-color: #cc0000;
-    border: 5px solid #cc0000;
-    outline: none;
-    cursor: pointer;
-    border-radius: 25px;
-}
-.container3{
-    padding-bottom: 20px;
-    height: 350px;
-    width: 32%;
-    background-color:rgb(248, 130, 222);
-    border: 1px solid rgb(248, 130, 222);
-    cursor: pointer;
-    border-radius: 25px;
-    float:  right;
-}
-.container3 img{
-    margin-left: 22px;
-    padding-top: 20px;
-} 
-.con3{
-    margin-left: 15px;
-}
-.con3 a{
-    text-decoration: none;
-    color: white;
-    background-color: #cc0000;
-    border: 5px solid #cc0000;
-    outline: none;
-    cursor: pointer;
-    border-radius: 25px;
-}
-.page{
-    clear: both;
-    height: 20px;
-    width: 60%;
-   
-}
-.page ul{
-    float: right;
-    margin: 0px auto;
-    padding-top: 25px;
-}
-.page ul li{
-    
-    display: inline;
-    margin-right: 40px;
-}
-.page ul li a{
     color: red;
-    text-decoration: none;
-}
-.buttom1{
-    margin-left: 30px;
-    height: 150px;
-    width: 50%;
-}
-.end{
-    height: 400px;
-    width: 100%;
-    background-color: black;
-}
-.padding{
-    padding-bottom: 30px;
-}
-.end1{
-    height: 250px;
-    width: 22%;
-    float: left;
-    margin-left: 20px;
-    margin-top: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 10px;
     
-}
-.end11 h2{
-    margin-left: 50px;
-    color: blanchedalmond;
-}
-.end11 ul{
-
-    color: blanchedalmond;
-}
-.end11 ul li{
-    margin-left: 10px;
-     
-}
-.end11 ul li a{
-    color: blanchedalmond;
-    text-decoration: none;
+ 
+  }
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
     
-}
-.end2{
-    height: 250px;
-    width: 22%;
-    float: right;
-    margin-left: 30px;
-    margin-right: 25px;
-    margin-top: 40px;
-
-}
-.end22 h2{
-    margin-left: 50px;
-    color: blanchedalmond;
-}
-.end22 ul{
-    color: blanchedalmond;
-}
-.end22 ul li{
-    margin-left: 10px;
-     
-}
-.end22 ul li a{
-    color: blanchedalmond;
-    text-decoration: none;
-    
-}
-.end3{
-    height: 250px;
-    width: 22%;
-    float: right;
-    margin-left: 30px;
-    margin-top: 40px;
-}
-.end33 h2{
-    margin-left: 50px;
-    color: blanchedalmond;
-}
-.end33 ul{
-    color: blanchedalmond;
-    margin-left: 15px;
-}
-.end33 ul li{
-    margin-left: 10px;
-     
-}
-.end33 ul li a{
-    color: blanchedalmond;
-    text-decoration: none;
-    
-}
-.end4{
-    height: 250px;
-    width: 22%;
-    float: right;
-    margin-right: 20px;
-    margin-top: 40px;
-
-}
-.end44 h2{
-    margin-left: 50px;
-    color: blanchedalmond;
-}
-.end44 ul{
-    color: blanchedalmond;
-    margin-left: 15px;
-}
-.end44 ul li{
-    margin-left: 10px;
-     
-}
-.end44 ul li a{
-    color: blanchedalmond;
-    text-decoration: none;
-    
-}
-     
+    opacity: 1;
+    right: 0;
+  }
